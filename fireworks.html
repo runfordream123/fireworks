@@ -44,21 +44,27 @@
             font-size: 30px;
         }
         .tingmei {
-            top: 100px;
+            top: 50px;
             animation: fromleft 3s linear infinite alternate;
         }
         .tingbang {
-            top: 200px;
-            animation: fromright 2.5s linear infinite alternate;
+            top: 130px;
+            animation: fromright 3s linear infinite alternate;
         }
         .jiayou {
+            top: 210px;
             width: 300px;
-            top: 300px;
             animation: fromleft 2s linear infinite alternate;
+        }
+        .poem {
+            position: fixed;
+            top: 290px;
+            text-align: center;
+            color: rgba(250, 249, 222,0.5);
         }
         @keyframes fromleft {
             from{
-                left: -300px;
+                left: -200px;
             }
             to{
                 left: 500px;
@@ -81,6 +87,14 @@
     <div class="ting tingmei">婷宝最美^_^</div>
     <div class="ting tingbang">婷宝最棒☺</div>
     <div class="ting jiayou">婷宝加油ヾ(◍°∇°◍)ﾉﾞ</div>
+    <div class="poem">
+        <p>&nbsp;&nbsp;The only limit to our realization of tomorrow will be our doubts of today</p>
+        <p>&nbsp;&nbsp;实现明天梦想的唯一限制就是我们今天的疑虑</p>
+        <p>&nbsp;&nbsp;当你情绪低落时 不妨让绚烂的烟花带走你的烦恼</p>
+        <p>&nbsp;&nbsp;然后拾起你的笑容和内心深处的温柔与坚强 继续前行</p>
+        <p>&nbsp;&nbsp;记住 今天的一切困扰都不应成为你追逐明天梦想的阻碍</p>
+        <p>&nbsp;&nbsp;只有放下疑虑 坚定信念 才能更好地迎接未来的挑战 实现心中的愿景</p>
+    </div>
     <script>
         window.addEventListener("resize", resizeCanvas, false);
         window.addEventListener("DOMContentLoaded", onLoad, false);
